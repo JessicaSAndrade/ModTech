@@ -1,6 +1,6 @@
 # ModTech
 ModTech - Criado com a finalidade de atender ao requisito funcional de cadastar e exibir a idade do e nome do usuário.
 
-![alt text](https://drive.google.com/file/d/10edzgKHm9tBGYnJddABNyENMTc_Mw0ib/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/1d6bBe1pU_bWqhJ2Rzf-HMvXsX3zUa14f/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/1XPhAQaz2vpR3JmpfAr1t6g3cDnKopKQd/view?usp=sharing)
+![1](https://user-images.githubusercontent.com/40208382/72258262-64ec8e80-35ec-11ea-8e93-795d1bab4831.jpeg)
+![2](https://user-images.githubusercontent.com/40208382/72258267-661dbb80-35ec-11ea-80f9-0db01d1eb022.jpeg)
+![3](https://user-images.githubusercontent.com/40208382/72258274-6a49d900-35ec-11ea-939d-dc411efc0f57.jpeg)
