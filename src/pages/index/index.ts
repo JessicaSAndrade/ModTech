@@ -14,6 +14,8 @@ export class IndexPage {
   public funcionario: Funcionario = new Funcionario();
   public data: Date = new Date();
   home = HomePage;
+
+  // retorno dos parâmetros da tela de cadastro no construtor.
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.funcionario.nome = navParams.get('nome');
     this.funcionario.id = navParams.get('id');
@@ -24,6 +26,7 @@ export class IndexPage {
     console.log('ionViewDidLoad IndexPage');
   }
 
+  // Retorno para a tela inicial de cadastro.
   voltar() {
     this.navCtrl.push(HomePage);
   }

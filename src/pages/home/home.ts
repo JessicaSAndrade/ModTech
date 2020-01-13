@@ -11,12 +11,11 @@ import { AlertController } from 'ionic-angular';
 export class HomePage {
   public data: Date = new Date();
   public funcionario: Funcionario = new Funcionario();
-  key: string;
-  final: Date = new Date();
-  inicial: Date = new Date();
   constructor(public navCtrl: NavController, public alertCtrl: AlertController, public navParams: NavParams) {
   }
 
+
+  // Método para cadastrar o usuário na apicação, passando parâmetros para a tela index.
   cadastrarUsuario() {
     if (this.funcionario.nome == null || this.funcionario.dataNasc == null) {
       this.alertFalha("Preencha todos campos.");
@@ -33,6 +32,8 @@ export class HomePage {
     }
   }
 
+
+  // Método utilizado para calcular a idade do usuário de acordo com a data atual e a data de aniversário do usuário.
   calculaIdade() {
     let dataNasci = (this.funcionario.dataNasc.toString());
     let dataNasciSplit = parseInt(dataNasci.substr(-10, 4));
@@ -45,7 +46,7 @@ export class HomePage {
 
   }
 
-  //alert para avisar sobre a falta de acesso
+  //alert para avisar sobre o erro de acesso
   alertFalha(text) {
     let alert = this.alertCtrl.create({
       title: "<font color='red' >" + "Erro" + "</font>",
@@ -56,6 +57,7 @@ export class HomePage {
     alert.present();
   }
 
+  //alert para avisar sobre o sucesso de cadastro do usuário
   alertSucesso(text) {
     let alert = this.alertCtrl.create({
       title: "<font color='green' >" + "Sucesso" + "</font>",
