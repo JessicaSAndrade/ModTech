@@ -1,0 +1,7 @@
+{
+  "name": "modTech",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

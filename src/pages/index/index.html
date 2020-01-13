@@ -1,0 +1,17 @@
+<ion-content class="container">
+  <img src="../../assets/imgs/index.png" class="avatarInicio">
+  <div class="textoPadrao">
+    <p>
+      Parabéns {{funcionario.nome}}!
+      <br>
+      Sua matricula é {{funcionario.id}},e sua idade é {{funcionario.idade}} anos.
+    </p>
+  </div>
+
+  <ion-row class="botoes">
+    <ion-col col-12>
+      <!-- <button  ion-button color="danger">Sair</button> -->
+      <button ion-button (click)="voltar()" color="light" outline>Sair</button>
+    </ion-col>
+  </ion-row>
+</ion-content>

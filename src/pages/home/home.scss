@@ -1,0 +1,85 @@
+page-home {
+  .container {
+    background-image: linear-gradient(
+      to bottom,
+      #207cca 0%,
+      #207cca 15%,
+      #207cca 30%,
+      #4a62fe 89%,
+      #4a62fe 99%,
+      #7db9e8 99%,
+      #4a62fe 99%,
+      #7db9e8 100%,
+      #7db9e8 100%,
+      #7db9e8 100%,
+      #7db9e8 101%
+    );
+  }
+
+  .login-box {
+    width: 320px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+
+  .avatarInicio {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+
+  .inputCadastroUsuario {
+    width: 95%;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    top: 80%;
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+  .inputsCadastroSenha {
+    width: 95%;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    top: 80%;
+    border-radius: 5px;
+  }
+
+  .inputsCadastroData {
+    width: 95%;
+    display: block;
+    margin-bottom: 25px;
+    top: 80%;
+    border-radius: 5px;
+    text-align: start;
+  }
+  .botoes {
+    margin-top: 15%;
+    margin-left: 23%;
+  }
+
+  .submit {
+    border-radius: 4px;
+  }
+
+  .titulo {
+    margin-top: 15%;
+    margin-bottom: -15%;
+  }
+
+  .legenda {
+    margin-left: 22%;
+  }
+}

@@ -1,0 +1,31 @@
+page-index {
+  .container {
+    background-image: linear-gradient(
+      to bottom,
+      #207cca 0%,
+      #207cca 15%,
+      #207cca 30%,
+      #4a62fe 89%,
+      #4a62fe 99%,
+      #7db9e8 99%,
+      #4a62fe 99%,
+      #7db9e8 100%,
+      #7db9e8 100%,
+      #7db9e8 100%,
+      #7db9e8 101%
+    );
+  }
+
+  .textoPadrao {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .botoes {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
